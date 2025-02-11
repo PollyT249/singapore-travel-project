@@ -20,6 +20,13 @@ body {
 .img-responsive {
   width: 100%;
   display: block;
+  border-radius: 8px;
+  transition: transform 0.3s;
+  cursor: pointer;
+}
+
+.img-responsive:hover {
+  transform: scale(1.1);
 }
 
 .grid-2-columns {
